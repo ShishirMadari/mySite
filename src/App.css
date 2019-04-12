@@ -3,6 +3,8 @@
 
 @import './style/home/home.scss';
 
+@import './style/header/header.scss';
+
 /* animation */
 @import './style/animations/fadein.scss';
 @import './style/animations/parallax.scss';
@@ -38,11 +40,6 @@ body {
   padding:0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-/* The styling for the static div. */
-.static {
-  background: white;
 }
 
 @keyframes App-logo-spin {
