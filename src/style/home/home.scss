@@ -5,11 +5,6 @@
     overflow-x: hidden;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 15vh 40vh 5vh 5vh 5vh 5vh 5vh 5vh 15vh;
-}
-
 .section-one {
     /* Needed for children to be absolutely positioned relative to the parent. */
     position: relative;
@@ -24,12 +19,8 @@
     color: white;
     text-shadow: 0 0 5px #000;
     margin-top: 5rem;
-    grid-column-start: 1;
 }
 
-.text {
-    grid-column-start:4;
-}
 
 .section {
     /* Needed for children to be absolutely positioned relative to the parent. */
@@ -47,7 +38,7 @@
 
 /* The styling for the static div. */
 .static {
-  background: white;
+  background: black;
 }
 
 .image-one {

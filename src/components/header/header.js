@@ -8,6 +8,11 @@ class Header extends Component {
                     <h1 className="name">
                         shishir<span className="dot">.</span>
                     </h1>
+                    <div className="nav-bar center-vertical">
+                        <button>about me</button>
+                        <button>resume</button>
+                        <button>contact</button>
+                    </div>
                 </div>
             </div>
         );

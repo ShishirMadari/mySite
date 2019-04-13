@@ -10,17 +10,13 @@ class Home extends Component {
       <React.Fragment>
         <Header />
         <div className="App wrapper">
-          <div className="grid-container">
-            <div className="section-one parallax image-one fadein" />
-            <div className="text">
-              hello
+          <div className="section-one parallax image-one fadein" />
+          <div className="text">
+            hello
             </div>
+          <div class="section static">
+            <h1>Next Section</h1>
           </div>
-          {/* <div className="grid-container">
-            <div class="section static">
-              <h1>Next Section</h1>
-            </div>
-          </div> */}
         </div>
       </React.Fragment>
     );
