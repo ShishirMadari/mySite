@@ -1,3 +1,14 @@
+/* foundational scss */
+@import './style/foundational.scss';
+
+/* component scss */
+@import './style/home/home.scss';
+@import './style/header/header.scss';
+
+/* animation */
+@import './style/animations/fadein.scss';
+@import './style/animations/parallax.scss';
+
 .App {
   text-align: center;
 }
@@ -23,6 +34,14 @@
   color: #61dafb;
 }
 
+/* Tiny reset thingy */
+body {
+  margin:0;
+  padding:0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -31,3 +50,4 @@
     transform: rotate(360deg);
   }
 }
+
