@@ -17,7 +17,7 @@ class Home extends Component {
         <div className="App wrapper fadein">
           <div className="section-one">
             <div className="grid-container">
-              <div className="image-one">
+              <div className="image-one parallax">
               </div>
               <div className="text">
                 hello
