@@ -3,6 +3,11 @@ import Header from './components/header/header';
 
 import './App.css';
 
+/**
+ * @title : Home Page
+ * @desc  : This is the component file that manages the elements
+ *          displayed on the home page of the site
+ */
 
 class Home extends Component {
   render() {
