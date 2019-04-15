@@ -17,8 +17,7 @@ class Home extends Component {
         <div className="App wrapper fadein">
           <div className="section-one">
             <div className="grid-container">
-              <div className="image-one parallax">
-              </div>
+              <div className="image-one parallax" />
               <div className="text">
                 hello
               </div>
@@ -30,12 +29,10 @@ class Home extends Component {
                 Next Section
               </div>
             </div>
-          </div>
-          {/* <div className="grid-container">
             <div class="section static">
               <h1>Next Section</h1>
             </div>
-          </div> */}
+          </div>
         </div>
       </React.Fragment>
     );
