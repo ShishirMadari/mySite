@@ -1,3 +1,8 @@
+/**
+ * @desc  : styling sheet for components found within Header.js
+ */
+
+
 .header {
     top: 0;
     min-height: 5rem;
@@ -6,14 +11,15 @@
 }
 
 .header-container {
-    padding: 0 3rem 0 3rem;
+    padding: 0 5vh;
     display: grid;
-    grid-template-columns: 40% 60%;
+    grid-template-columns: 1fr 1fr;
 }
 
 .name {
     font-size: 40px;
     font-weight: 400;
+    text-align: center;
 }
 
 .dot {
@@ -26,9 +32,10 @@
     margin: 0 1rem 0 1rem;
     font-size: 16px;
     border: 0;
+    text-align:center;
 
     display: inline-block;
-    border-width:5px;
+    border-width:3px;
     border-top-style:solid;
     border-top-color: white;
 
@@ -41,7 +48,7 @@
 }
 
 .nav-bar button:hover, .nav-bar button:active{
-    border-width:5px;
+    border-width:3px;
     border-top-style:solid;
-    border-top-color: #5290FF;
+    border-top-color: #1d88ac;
 }
