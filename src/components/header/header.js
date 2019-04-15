@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 
+/**
+ * @title : Header Component
+ * @desc  : Header for the site, which also houses the nav bar
+ */
 class Header extends Component {
     render() {
         return (
