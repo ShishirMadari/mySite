@@ -1,3 +1,7 @@
+/**
+ * @desc  : styling sheet for components found within Home.js
+ */
+
 .wrapper {
     perspective: 1px;
     transform-style: preserve-3d;
@@ -5,44 +9,45 @@
     overflow-x: hidden;
 }
 
-.section-one {
-    /* Needed for children to be absolutely positioned relative to the parent. */
-    position: relative;
-    /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-    height: 80vh;
-    width:100%;
-
-    /* For text formatting. */
-    //display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 0 0 5px #000;
-    margin-top: 5rem;
+.grid-container {
+    display: grid;
+    grid-template-columns: .8fr .4fr 1fr;
+    margin: 0rem 5vh;
+    height: 100%;
 }
-
 
 .section {
     /* Needed for children to be absolutely positioned relative to the parent. */
     position: relative;
     /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-    height: 100vh;
+    width:100%;
 
     /* For text formatting. */
-    display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    text-shadow: 0 0 5px #000;
+    color: black;
 }
 
-/* The styling for the static div. */
-.static {
-  background: black;
+.section-one {
+    @include section;
+    margin-top: 5rem;
+    height: 80vh;
 }
+
+.section-two {
+    @include section;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+.text {
+    grid-column-start:3;
+}
+
 
 .image-one {
     background: url('./../../assets/images/home-section-2.jpeg');
     background-repeat: no-repeat;
-    width: 40vh;
+    grid-column:1;
 }

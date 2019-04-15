@@ -1,8 +1,8 @@
 /* foundational scss */
 @import './style/foundational.scss';
 
+/* component scss */
 @import './style/home/home.scss';
-
 @import './style/header/header.scss';
 
 /* animation */
