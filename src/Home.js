@@ -14,10 +14,10 @@ class Home extends Component {
     return (
       <React.Fragment>
         <Header />
-        <div className="App wrapper">
+        <div className="App wrapper fadein">
           <div className="section-one">
             <div className="grid-container">
-              <div className="image-one fadein">
+              <div className="image-one">
               </div>
               <div className="text">
                 hello
