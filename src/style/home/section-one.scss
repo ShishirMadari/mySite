@@ -1,0 +1,34 @@
+.section-one {
+    @include section;
+    margin-top: 5rem;
+    height: 80vh;
+}
+
+.section-grid-container-one {
+    @include section-grid-container;
+    grid-template-columns: .8fr .4fr 1fr;
+}
+
+.text-container {
+    margin-left: 5rem;
+    position:grid;
+    grid-column-start:3;
+
+}
+
+.title {
+    font-size: 60px;
+    margin: 0 0 1rem 0 ;
+}
+
+.p-text {
+    font-size: 20px;
+    margin: 0;
+    margin-left: 3px;
+}
+
+.image-one {
+    background: url('./../../assets/images/home-section-2.jpeg');
+    background-repeat: no-repeat;
+    grid-column:1;
+}

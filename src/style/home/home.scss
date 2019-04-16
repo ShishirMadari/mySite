@@ -9,9 +9,9 @@
     overflow-x: hidden;
 }
 
-.grid-container {
+.section-grid-container {
     display: grid;
-    grid-template-columns: .8fr .4fr 1fr;
+    grid-template-columns: 1fr 1fr;
     margin: 0 5vh;
     height: 100%;
 }
@@ -28,26 +28,9 @@
     color: black;
 }
 
-.section-one {
-    @include section;
-    margin-top: 5rem;
-    height: 80vh;
-}
-
 .section-two {
     @include section;
     height: 100vh;
     background-color: black;
     color: white;
-}
-
-.text {
-    grid-column-start:3;
-}
-
-
-.image-one {
-    background: url('./../../assets/images/home-section-2.jpeg');
-    background-repeat: no-repeat;
-    grid-column:1;
 }

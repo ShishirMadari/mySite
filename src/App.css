@@ -3,6 +3,7 @@
 
 /* component scss */
 @import './style/home/home.scss';
+@import './style/home/section-one.scss';
 @import './style/header/header.scss';
 
 /* animation */
